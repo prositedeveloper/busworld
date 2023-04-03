@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/booking.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="top">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>   
+                        <a href="#" class="logo" id="logo">BW</a> 
+                        <ul class="menu" id="menu">
+                            <li><a href="index.html">Список рейсов</a></li>
+                            <li><a href="stock.html">Акции</a></li>
+                            <li><a href="#">Личный кабинет</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </nav>
+            <div class="popup" id="popup"></div>
+        
+            <div class="intro">
+                <div class="intro__title">
+                    Бронирование
+                </div>
+            </div>
+        
+            <div class="background">
+                <div class="booking">
+                    <div class="container">
+                        <div class="booking__inner">
+                            <div class="booking__words">
+                                <div class="left">
+                                    <div class="info">
+                                        Номер рейса
+                                        <br>
+                                        <span>№1</span>
+                                    </div>
+                                    <div class="info">
+                                        Название города выезда
+                                        <br>
+                                        <span>Каспийск</span>
+                                    </div>
+                                    <div class="info">
+                                        Адрес места отправления
+                                        <br>
+                                        <span>ул. Ленина 43</span>
+                                    </div>
+                                    <div class="info">
+                                        Дата выезда
+                                        <br>
+                                        <span>08.06.2023</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="info">
+                                        Время прибытия
+                                        <br>
+                                        <span>12:00</span>
+                                    </div>
+                                    <div class="info">
+                                        Название города назначения 
+                                        <br>
+                                        <span>Москва</span> 
+                                    </div>
+                                    <div class="info">
+                                        Стоимость
+                                        <br>
+                                        <span>5000 руб </span>
+                                    </div>
+                                    <div class="info">
+                                        Адрес места назначения
+                                        <br>
+                                        <span>ул. Комсомольская</span>
+                                    </div>
+                                    <div class="info">
+                                        Время выезда
+                                        <br>
+                                        <span>9:00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking__form">
+                    <div class="container">
+    
+                        <div class="booking__title">
+                            Забронировать рейс
+                        </div>
+                        <div class="booking__items">
+
+                            <div class="booking__item">
+                                <form action="#">
+                                    <input type="text" autofocus placeholder="Фамилия">
+                                    <input type="text" placeholder="Имя">
+                                    <input type="text" placeholder="Отчество">
+                                    <input type="date">
+                                    <div class="passport">
+                                        <input class="seria" type="number" placeholder="Серия">
+                                        <input class="number" type="number" placeholder="Номер">
+                                    </div>
+                                    <button class="form__button">Забронировать</button>
+                                </form>
+                            </div> <!-- ./booking__item -->
+                            <div class="booking__item">
+                                <div class="booking__item__title">
+                                    Количество поссажиров
+                                </div>
+                                <div class="booking__counter">
+                                    <div class="booking__btns">
+                                        <button class="booking__button">-</button>
+                                        <span>1</span>
+                                        <button class="booking__button">+</button>
+                                    </div>
+                                </div>
+                                <div class="final__price">
+                                    Финальная cтоимость
+                                    <br>
+                                    <span>100000 руб</span>
+                                </div>
+                            </div> <!-- ./booking__item -->
+                        </div> <!-- ./booking__items -->
+
+                    </div> <!-- ./container -->
+                </div> <!-- ./booking__form -->
+            </div> <!-- ./background -->
+        </div> <!-- ./top -->
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        BW
+                    </div>
+                    <div class="footer__data">
+                        Все права защищены
+                    </div>
+                    <div class="footer_author">
+                        Created ProSiteDeveloper
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
